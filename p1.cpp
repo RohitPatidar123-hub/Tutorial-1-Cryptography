@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
 void pri(string str)
 {   cout<<str<<endl;
     for(int i=0;i<str.size();i++)
@@ -15,49 +13,22 @@ void pri(string str)
         else if(str[i]=='r')
             cout<<'o';
         else if(str[i]=='m')
-            cout<<'s';
+            cout<<'i';
         else if(str[i]=='j')
               cout<<'n';
-       //else if(str[i]=='x')
-         //   cout<<'s';
+       else if(str[i]=='x')
+          cout<<'s';
        else if(str[i]=='e')
-            cout<<'i';
+            cout<<'h';
      else if(str[i]=='t')
              cout<<'r';
         else if(str[i]=='b')
             cout<<'d';
-       // else if(str[i]=='p')
-         //   cout<<'l';
+       else if(str[i]=='p')
+           cout<<'l';
         else if(str[i]=='n')
-            cout<<'m';
-        else if(str[i]=='c')
-              cout<<'l';
-        else if(str[i]=='h')
-              cout<<'v';
-            /*
-        else if(str[i]=='m')
-              cout<<'s';
-       else if(str[i]=='u')
-            cout<<'t';
-       else if(str[i]=='q')
             cout<<'u';
-       else if(str[i]=='v')
-           cout<<'w';
-           else if(str[i]=='p')
-               cout<<'p';
-               else if(str[i]=='a')
-                    cout<<'y';
-                    else if(str[i]=='o')
-                       cout<<'k';
-                       else if(str[i]=='f')
-                            cout<<'g';
-                            else if(str[i]=='w')
-                                  cout<<'b';
-                                  else if(str[i]=='h')
-                                        cout<<'v';
-                                        else if(str[i]=='z')
-                                              cout<<'h';
-          */ else if(str[i]==' ')
+        else if(str[i]==' ')
                  cout<<' ';
                  else cout<<'-';
 
@@ -73,8 +44,6 @@ int main()
     string str4="yjtrapuexj qpbguym gjb ynpcxayy urgejejf rybqty remom";
     string str5="gvgryjymm em oya lxr gcc";
     string str6="ej g txjjytuyb vxrcb prxgtuehy yllxrum prxuytu ejlxrnguexj gjb ngejugej urqmu";
-   
-    
     pri(str1);
     pri(str2);
     pri(str3);
@@ -82,5 +51,8 @@ int main()
     pri(str5);
     pri(str6);
     return 0;
+}       
+           
+            
+  
     
-}
