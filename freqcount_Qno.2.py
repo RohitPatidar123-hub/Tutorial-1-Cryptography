@@ -1,6 +1,5 @@
 str="xuzayvsukajzauvygxyofkykizxvwpguyrwsryrwyvkogxmugxvfggwxuzayrvwhgyjvfokwfogxmugcgzokugxumxrklbvuyjroauvxgoougsmlkumafkygokwfkmfryojglahkrwykrwxuzayvsukajrxogxmuryzxuzayvsukajzrogoogwyrklbvuhkrwykrwrwsyjgaurpkxzkwfogxmuryzvbfrsryklrwbvuhkyrvw"
 arr1 = []
-
 for i in range(26):
         substr = "" + chr(i + 97)  + ""
         if str.count(substr) != 0:
