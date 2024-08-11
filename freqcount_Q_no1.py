@@ -29,4 +29,4 @@ for i in range(26):
                 arr3.insert(0, ( str.count(substr), substr ))
 
 arr3.sort(reverse=True)
-print("\n\nFrequency Of trigraph in Cypertext:\n",arr2)
+print("\n\nFrequency Of trigraph in Cypertext:\n",arr3)
